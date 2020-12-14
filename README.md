@@ -4,4 +4,4 @@ Written in HTML, CSS (Bootstrap)
 
 Images:<br/>
 - Gameboy GIF: Oliver Timperley
-- 
+- Logo: Shandiin Woodward
