@@ -4,7 +4,7 @@ body {
   background-color: rgb(227, 223, 248);
 }
 
-body h1 {
+h1, h2 {
   font-family: "VT323";
 }
 
@@ -38,16 +38,3 @@ body h1 {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
-/* .bg-play {
-  font-family: "VT323";
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("img/gb-background.gif");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 90vh;
-} */
