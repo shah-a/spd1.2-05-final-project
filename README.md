@@ -2,6 +2,6 @@
 
 Written in HTML, CSS (Bootstrap)
 
-Images:<br/>
-- Gameboy Background GIF: Oliver Timperley
-- 
+## Images
+
+Images belong to original artists.

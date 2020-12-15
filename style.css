@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+body {
+  background-color: rgb(227, 223, 248);
+}
+
+body h1 {
+  font-family: "VT323";
+}
+
+.bg-gameboy {
+  background: rgb(74,57,156);
+  background:
+    linear-gradient(
+      45deg,
+      rgba(74,57,156,1) 0%,
+      rgba(132,115,222,1) 35%,
+      rgba(255,255,255,1) 100%
+    );
+}
+
+.btn-gameboy {
+  font-family: "VT323";
+  font-size: 1.3em;
+  color: white;
+  background-color: rgb(74, 57, 156);
+  border: 1px solid rgb(74, 57, 156);
+}
+
+.btn-gameboy:hover {
+  color: rgb(74, 57, 156);
+  background-color: white;
+}
+
+.bg-play {
+  background-image: url("img/gb-wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 /* .bg-play {
   font-family: "VT323";
   background:
@@ -11,46 +51,3 @@
   background-position: center;
   height: 90vh;
 } */
-
-h1 {
-  font-family: "VT323";
-}
-
-/* ---------- Nav & Footer ----------*/
-
-.bg-nav {
-  background-color: white;
-}
-
-/* --------------------------------- */
-
-
-/* ---------- HOME PAGE ----------*/
-
-.bg-gameboy {
-  background: rgb(74,57,156);
-  background: linear-gradient(45deg, rgba(74,57,156,1) 0%, rgba(132,115,222,1) 35%, rgba(255,255,255,1) 100%);
-  height: 70vh;
-}
-
-.btn-gameboy {
-  color: white;
-  background-color: rgb(74, 57, 156);
-  border: 1px solid rgb(74, 57, 156);
-}
-
-.btn-gameboy:hover {
-  color: rgb(74, 57, 156);
-  background-color: white;
-}
-
-/* ------------------------------ */
-
-.bg-play {
-  background-image: url("img/gb-wallpaper.jpg");
-  background-size: cover;
-  /* background-attachment: fixed; */
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 90vh;
-}
