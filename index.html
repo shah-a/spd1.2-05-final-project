@@ -10,39 +10,48 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
+  <!-- Animate on Scroll -->
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 </head>
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-    <a class="navbar-brand" href="index.html">
-      <img src="img/logo.png" width="80" height="80" class="d-inline-block align-top">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Play Now</a>
-        </li>
-      </ul>
+  <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+    <div class="container-lg">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/gb-logo.gif" height="80" class="d-inline-block align-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto align-items-center">
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Page 1</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">Page 2</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#">
+              <button class="btn btn-primary">Play Now</button>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <!-- SECTION -->
-  <div class="container-fluid text-light text-center bg-gameboy">
+  <div class="container-fluid text-light bg-gameboy">
     <div class="row">
       <div class="col-lg-6 offset-lg-3 d-flex flex-column align-items-center justify-content-center"
         style="height: 90vh;">
-        <img class="logo" src="img/logo.png" width=150 height=150>
+        <img class="logo" src="img/gb-logo.gif" height=150>
         <h1>Retro Games Online</h1>
         <p class="lead">Take a trip down memory lane</p>
       </div>
@@ -50,10 +59,95 @@
   </div>
 
   <!-- SECTION -->
-  <section style="min-height: 85vh;"></section>
+  <div class="container" style="background-color: lightseagreen;">
+    <div class="row">
+      <div class="col-md-7 d-flex flex-column justify-content-center">
+        <h1>Asdf asdf</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique earum quod aperiam cumque, sunt dolore
+          tenetur veniam quasi! Repellendus consequuntur obcaecati sequi saepe aperiam, sunt odio cupiditate ab
+          distinctio hic?
+        </p>
+        <button class="btn btn-primary w-25">Button</button>
+      </div>
+      <div class="col-md-5">
+        <img src="img/master-sword-01.gif" class="w-100 img-fluid p-5">
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION
+  <div class="container" style="background-color: lightseagreen;">
+    <div class="row">
+      <div class="col-lg-5 d-flex flex-column justify-content-center">
+        <h1>Asdf asdf</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique earum quod aperiam cumque, sunt dolore
+          tenetur veniam quasi! Repellendus consequuntur obcaecati sequi saepe aperiam, sunt odio cupiditate ab
+          distinctio hic?
+        </p>
+        <button class="btn btn-primary w-25">Button</button>
+      </div>
+      <div class="col-lg-7">
+        <img src="img/master-sword-02.gif" class="w-100 img-fluid p-5">
+      </div>
+    </div>
+  </div> -->
+
+  <!-- SECTION -->
+  <div class="container" style="background-color: pink;">
+    <div class="row">
+      <div class="col-md-5">
+        <img src="img/kirby.gif" class="w-100 img-fluid p-5">
+      </div>
+      <div class="col-md-7 d-flex flex-column justify-content-center">
+        <h1>Asdf asdf</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique earum quod aperiam cumque, sunt dolore
+          tenetur veniam quasi! Repellendus consequuntur obcaecati sequi saepe aperiam, sunt odio cupiditate ab
+          distinctio hic?
+        </p>
+        <button class="btn btn-primary w-25">Button</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION -->
+  <div class="container" style="background-color: skyblue;">
+    <div class="row">
+      <div class="col-md-7 d-flex flex-column justify-content-center">
+        <h1>Asdf asdf</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique earum quod aperiam cumque, sunt dolore
+          tenetur veniam quasi! Repellendus consequuntur obcaecati sequi saepe aperiam, sunt odio cupiditate ab
+          distinctio hic?
+        </p>
+        <button class="btn btn-primary w-25">Button</button>
+      </div>
+      <div class="col-md-5">
+        <img src="img/pikachu.gif" class="w-100 img-fluid p-5">
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION -->
+  <div class="container" style="background-color: goldenrod;">
+    <div class="row">
+      <div class="col-md-5">
+        <img src="img/samus.gif" class="w-100 img-fluid p-5">
+      </div>
+      <div class="col-md-7 d-flex flex-column justify-content-center">
+        <h1>Asdf asdf</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique earum quod aperiam cumque, sunt dolore
+          tenetur veniam quasi! Repellendus consequuntur obcaecati sequi saepe aperiam, sunt odio cupiditate ab
+          distinctio hic?
+        </p>
+        <button class="btn btn-primary w-25">Button</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION -->
+  <!-- <section style="min-height: 85vh;"></section> -->
 
   <!-- FOOTER -->
-  <div class="bg-primary text-light p-5">
+  <div class="bg-dark text-light p-5">
     &copy; Ali Shah, 2020
   </div>
 
@@ -64,6 +158,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script> -->
 </body>
 
 </html>

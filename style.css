@@ -1,10 +1,15 @@
-.bg-gameboy {
+/* .bg-gameboy {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("img/gameboy-gif.gif");
+    url("img/gb-background.gif");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100vh;
+} */
+
+.bg-gameboy {
+  background-color: maroon;
   height: 90vh;
 }
